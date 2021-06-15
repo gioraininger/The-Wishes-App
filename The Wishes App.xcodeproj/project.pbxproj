@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31D3CF0A2679454400695E42 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D3CF092679454400695E42 /* LoginPage.swift */; };
+		31D3CF0C2679456B00695E42 /* SignupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D3CF0B2679456B00695E42 /* SignupPage.swift */; };
 		F10A06D8252131A200B53071 /* MainWelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A06D7252131A200B53071 /* MainWelcomePage.swift */; };
 		F10A06DD2521329F00B53071 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A06DC2521329F00B53071 /* UIViewController+.swift */; };
 		F1535D392521404400FBE73E /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1535D382521404400FBE73E /* CategoriesViewController.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31D3CF092679454400695E42 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		31D3CF0B2679456B00695E42 /* SignupPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPage.swift; sourceTree = "<group>"; };
 		F10A06D7252131A200B53071 /* MainWelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWelcomePage.swift; sourceTree = "<group>"; };
 		F10A06DC2521329F00B53071 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		F1535D382521404400FBE73E /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 			children = (
 				F10A06D7252131A200B53071 /* MainWelcomePage.swift */,
 				F1535D382521404400FBE73E /* CategoriesViewController.swift */,
+				31D3CF092679454400695E42 /* LoginPage.swift */,
+				31D3CF0B2679456B00695E42 /* SignupPage.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -317,9 +323,11 @@
 				F1535D502521E41200FBE73E /* CategoriesCell.swift in Sources */,
 				F1EF863D25212031008E140B /* AppDelegate.swift in Sources */,
 				F1535D392521404400FBE73E /* CategoriesViewController.swift in Sources */,
+				31D3CF0C2679456B00695E42 /* SignupPage.swift in Sources */,
 				F10A06DD2521329F00B53071 /* UIViewController+.swift in Sources */,
 				F10A06D8252131A200B53071 /* MainWelcomePage.swift in Sources */,
 				F1EF863F25212031008E140B /* SceneDelegate.swift in Sources */,
+				31D3CF0A2679454400695E42 /* LoginPage.swift in Sources */,
 				F1535D5A2521F13500FBE73E /* CategoriesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

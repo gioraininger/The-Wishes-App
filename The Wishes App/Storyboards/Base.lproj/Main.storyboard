@@ -23,7 +23,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9LO-Sr-4fP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="317" y="72"/>
+            <point key="canvasLocation" x="1380" y="-632"/>
         </scene>
         <!--Main Welcome Page-->
         <scene sceneID="CPR-ty-bXa">
@@ -90,7 +90,9 @@ Copyright © www.wishesquotes.com</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="ncY-3L-4na" kind="show" id="npj-B0-cwY"/>
+                                            <segue destination="ncY-3L-4na" kind="popoverPresentation" popoverAnchorView="d6w-uK-bAy" id="YN1-hh-gcZ">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHw-Jp-lhd">
@@ -109,7 +111,9 @@ Copyright © www.wishesquotes.com</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="IPJ-np-iYo" kind="show" id="Kv6-5b-LOr"/>
+                                            <segue destination="TEM-fe-au2" kind="popoverPresentation" popoverAnchorView="WHw-Jp-lhd" id="9Ra-Uc-1rC">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcM-Ea-7s4">
@@ -178,23 +182,20 @@ Copyright © www.wishesquotes.com</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vlA-oi-uv7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1137.68115942029" y="71.651785714285708"/>
+            <point key="canvasLocation" x="1380" y="135"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="n9l-Hj-KNq">
             <objects>
                 <viewController id="ncY-3L-4na" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zre-pY-X9z">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TEST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmZ-Jy-vaG">
-                                <rect key="frame" x="186" y="438" width="41" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="josh-hemsley-keaQ2Q3yey8-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="pRs-4P-mem">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b9o-gb-pLj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -203,7 +204,29 @@ Copyright © www.wishesquotes.com</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="avt-5D-hsK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2318.840579710145" y="-166.07142857142856"/>
+            <point key="canvasLocation" x="66.666666666666671" y="985.71428571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nfz-w9-3hS">
+            <objects>
+                <viewController id="TEM-fe-au2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tmU-WH-RCp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="canmandawe-ZDrNC_wGOww-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="zSk-YA-6OY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ACg-rG-pY3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="V8g-tL-7a1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UxB-sH-5uu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2743" y="986"/>
         </scene>
         <!--Daily quote-->
         <scene sceneID="9gn-jf-FmH">
@@ -213,25 +236,22 @@ Copyright © www.wishesquotes.com</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lFy-zP-PIx">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lFy-zP-PIx">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hello-i-m-nik-z1d-LP8sjuI-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="CoR-Gc-Gf5">
-                                        <rect key="frame" x="18" y="192" width="378" height="429"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Today's Quote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUA-CM-gX1">
-                                        <rect key="frame" x="127" y="49" width="161" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today's Quote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUA-CM-gX1">
+                                        <rect key="frame" x="126.5" y="49" width="161" height="30"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="25"/>
                                         <color key="textColor" red="0.0" green="0.42745098040000001" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5e-sm-oTh">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5e-sm-oTh">
                                         <rect key="frame" x="75" y="669" width="265" height="36"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.51372549020000002" green="0.7725490196" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="Fcd-Hb-oAd"/>
+                                            <constraint firstAttribute="width" constant="265" id="JTr-gF-Zs5"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                         <state key="normal" title="Download Quote">
                                             <color key="titleColor" red="0.92941176469999998" green="0.96470588239999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -242,18 +262,42 @@ Copyright © www.wishesquotes.com</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hello-i-m-nik-z1d-LP8sjuI-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="0Ye-s3-GFK">
+                                        <rect key="frame" x="33" y="188" width="348" height="437"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="437" id="7Cj-xh-czY"/>
+                                            <constraint firstAttribute="width" constant="348" id="fM3-zO-bqT"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.8862745098" green="0.58431372550000005" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="0Ye-s3-GFK" firstAttribute="centerX" secondItem="lFy-zP-PIx" secondAttribute="centerX" id="1Eh-fL-oXT"/>
+                                    <constraint firstItem="0Ye-s3-GFK" firstAttribute="centerY" secondItem="lFy-zP-PIx" secondAttribute="centerY" id="3ha-qY-hDg"/>
+                                    <constraint firstItem="k5e-sm-oTh" firstAttribute="top" secondItem="0Ye-s3-GFK" secondAttribute="bottom" constant="44" id="8GS-Ym-mfU"/>
+                                    <constraint firstItem="iUA-CM-gX1" firstAttribute="centerX" secondItem="lFy-zP-PIx" secondAttribute="centerX" id="G6t-W4-UsM"/>
+                                    <constraint firstItem="k5e-sm-oTh" firstAttribute="leading" secondItem="lFy-zP-PIx" secondAttribute="leading" constant="75" id="LSk-CD-SQg"/>
+                                    <constraint firstItem="0Ye-s3-GFK" firstAttribute="centerY" secondItem="lFy-zP-PIx" secondAttribute="centerY" id="QX8-Fq-DoJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="k5e-sm-oTh" secondAttribute="trailing" constant="74" id="Tal-bB-PqX"/>
+                                    <constraint firstItem="iUA-CM-gX1" firstAttribute="top" secondItem="lFy-zP-PIx" secondAttribute="top" constant="49" id="Xh4-ys-XN9"/>
+                                    <constraint firstItem="0Ye-s3-GFK" firstAttribute="centerX" secondItem="lFy-zP-PIx" secondAttribute="centerX" id="x9M-Fy-oW9"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6LJ-Wf-Hbe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lFy-zP-PIx" firstAttribute="trailing" secondItem="6LJ-Wf-Hbe" secondAttribute="trailing" id="0iR-wo-vBV"/>
+                            <constraint firstItem="lFy-zP-PIx" firstAttribute="top" secondItem="hpN-SU-R9V" secondAttribute="top" id="AQO-Hc-wcv"/>
+                            <constraint firstItem="lFy-zP-PIx" firstAttribute="bottom" secondItem="6LJ-Wf-Hbe" secondAttribute="bottom" id="Quc-qo-2oC"/>
+                            <constraint firstItem="lFy-zP-PIx" firstAttribute="leading" secondItem="6LJ-Wf-Hbe" secondAttribute="leading" id="YiA-XD-ccd"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Daily quote" selectedImage="quote.bubble" catalog="system" id="HzS-3A-6pU"/>
+                    <tabBarItem key="tabBarItem" title="Daily quote" image="quote.bubble" catalog="system" selectedImage="quote.bubble" id="HzS-3A-6pU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sdv-7C-Csi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1854" y="1645"/>
+            <point key="canvasLocation" x="1378.2608695652175" y="2503.7946428571427"/>
         </scene>
         <!--Categories-->
         <scene sceneID="bRC-J1-W3f">
@@ -265,20 +309,20 @@ Copyright © www.wishesquotes.com</string>
                         <viewLayoutGuide key="safeArea" id="j7M-T7-o7g"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Categories" selectedImage="list.bullet.rectangle" catalog="system" id="WwD-EE-Bl8">
+                    <tabBarItem key="tabBarItem" title="Categories" image="list.bullet.rectangle" catalog="system" selectedImage="list.bullet.rectangle" id="WwD-EE-Bl8">
                         <color key="badgeColor" red="1" green="0.86666666670000003" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3dj-du-Qla" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1023" y="1645"/>
+            <point key="canvasLocation" x="67" y="2504"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="3lT-cG-aKf">
             <objects>
                 <tabBarController id="hIY-Bz-5hC" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="KEf-HT-cro"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w7D-H5-I6L">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="w7D-H5-I6L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -293,76 +337,7 @@ Copyright © www.wishesquotes.com</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uRv-Po-4aw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="998" y="780"/>
-        </scene>
-        <!--Item 2-->
-        <scene sceneID="UQa-73-rtI">
-            <objects>
-                <viewController id="FSN-O1-qIS" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wLg-6D-QqM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Test 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWc-gt-iK3">
-                                <rect key="frame" x="152" y="317" width="47" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="wjU-UU-Aie"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="ejE-rc-wnY"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dwP-l2-q5I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3715.9420289855075" y="770.75892857142856"/>
-        </scene>
-        <!--Item 1-->
-        <scene sceneID="38e-Ev-fx4">
-            <objects>
-                <viewController id="Hqb-HK-Chu" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="KTV-Lz-XHe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Test 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jso-ZB-YWk">
-                                <rect key="frame" x="186" y="438" width="44" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="kij-Qj-erO"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="KbK-FO-vbx"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="O5W-ai-pGc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3715.9420289855075" y="163.39285714285714"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="NHL-mR-v06">
-            <objects>
-                <tabBarController id="IPJ-np-iYo" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="6HE-iN-2SZ"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pSL-gV-F7j">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="Hqb-HK-Chu" kind="relationship" relationship="viewControllers" id="v93-bo-2Xu"/>
-                        <segue destination="FSN-O1-qIS" kind="relationship" relationship="viewControllers" id="w3t-FK-Fqb"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HFP-GV-ruX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2828" y="468"/>
+            <point key="canvasLocation" x="1380" y="1694"/>
         </scene>
         <!--Browse-->
         <scene sceneID="aux-2k-AD8">
@@ -374,17 +349,19 @@ Copyright © www.wishesquotes.com</string>
                         <viewLayoutGuide key="safeArea" id="kcw-xG-x3K"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Browse" id="MUb-Gq-daU">
+                    <tabBarItem key="tabBarItem" title="Browse" image="lightbulb" catalog="system" id="MUb-Gq-daU">
                         <imageReference key="selectedImage" image="lightbulb" catalog="system" symbolScale="large"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yef-pT-oFW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2690" y="1645"/>
+            <point key="canvasLocation" x="2742" y="2504"/>
         </scene>
     </scenes>
     <resources>
+        <image name="canmandawe-ZDrNC_wGOww-unsplash" width="3648" height="5472"/>
         <image name="hello-i-m-nik-z1d-LP8sjuI-unsplash" width="2565" height="3131"/>
+        <image name="josh-hemsley-keaQ2Q3yey8-unsplash" width="2268" height="4032"/>
         <image name="lightbulb" catalog="system" width="113" height="128"/>
         <image name="list.bullet.rectangle" catalog="system" width="128" height="93"/>
         <image name="quote.bubble" catalog="system" width="128" height="110"/>
