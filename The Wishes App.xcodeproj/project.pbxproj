@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10A06D8252131A200B53071 /* MainWelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A06D7252131A200B53071 /* MainWelcomePage.swift */; };
+		F10A06DD2521329F00B53071 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A06DC2521329F00B53071 /* UIViewController+.swift */; };
+		F1535D392521404400FBE73E /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1535D382521404400FBE73E /* CategoriesViewController.swift */; };
+		F1535D502521E41200FBE73E /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1535D4E2521E41200FBE73E /* CategoriesCell.swift */; };
+		F1535D512521E41200FBE73E /* CategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1535D4F2521E41200FBE73E /* CategoriesCell.xib */; };
+		F1535D5A2521F13500FBE73E /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1535D592521F13500FBE73E /* CategoriesModel.swift */; };
+		F1535D5F2521F95A00FBE73E /* CellSegueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1535D5E2521F95A00FBE73E /* CellSegueProtocol.swift */; };
+		F1EF863D25212031008E140B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EF863C25212031008E140B /* AppDelegate.swift */; };
+		F1EF863F25212031008E140B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EF863E25212031008E140B /* SceneDelegate.swift */; };
+		F1EF864125212031008E140B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EF864025212031008E140B /* ViewController.swift */; };
+		F1EF864425212031008E140B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EF864225212031008E140B /* Main.storyboard */; };
+		F1EF864625212034008E140B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EF864525212034008E140B /* Assets.xcassets */; };
+		F1EF864925212034008E140B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EF864725212034008E140B /* LaunchScreen.storyboard */; };
+		F1EF865425212035008E140B /* The_Wishes_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EF865325212035008E140B /* The_Wishes_AppTests.swift */; };
+		F1EF865F25212035008E140B /* The_Wishes_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EF865E25212035008E140B /* The_Wishes_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1EF865025212035008E140B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1EF863125212031008E140B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1EF863825212031008E140B;
+			remoteInfo = "The Wishes App";
+		};
+		F1EF865B25212035008E140B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1EF863125212031008E140B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1EF863825212031008E140B;
+			remoteInfo = "The Wishes App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10A06D7252131A200B53071 /* MainWelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWelcomePage.swift; sourceTree = "<group>"; };
+		F10A06DC2521329F00B53071 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		F1535D382521404400FBE73E /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		F1535D4E2521E41200FBE73E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		F1535D4F2521E41200FBE73E /* CategoriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCell.xib; sourceTree = "<group>"; };
+		F1535D592521F13500FBE73E /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		F1535D5E2521F95A00FBE73E /* CellSegueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSegueProtocol.swift; sourceTree = "<group>"; };
+		F1EF863925212031008E140B /* The Wishes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Wishes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EF863C25212031008E140B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1EF863E25212031008E140B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1EF864025212031008E140B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1EF864325212031008E140B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1EF864525212034008E140B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1EF864825212034008E140B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1EF864A25212034008E140B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EF864F25212035008E140B /* The Wishes AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Wishes AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EF865325212035008E140B /* The_Wishes_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Wishes_AppTests.swift; sourceTree = "<group>"; };
+		F1EF865525212035008E140B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EF865A25212035008E140B /* The Wishes AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Wishes AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EF865E25212035008E140B /* The_Wishes_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Wishes_AppUITests.swift; sourceTree = "<group>"; };
+		F1EF866025212035008E140B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1EF863625212031008E140B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EF864C25212035008E140B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EF865725212035008E140B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10A06C22521276700B53071 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F1EF864725212034008E140B /* LaunchScreen.storyboard */,
+				F1EF864225212031008E140B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F10A06CB25212AD000B53071 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F10A06D7252131A200B53071 /* MainWelcomePage.swift */,
+				F1535D382521404400FBE73E /* CategoriesViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F1535D4D2521E3A000FBE73E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F1535D4E2521E41200FBE73E /* CategoriesCell.swift */,
+				F1535D4F2521E41200FBE73E /* CategoriesCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F1535D582521F0DD00FBE73E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1535D592521F13500FBE73E /* CategoriesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1EF863025212031008E140B = {
+			isa = PBXGroup;
+			children = (
+				F1EF863B25212031008E140B /* The Wishes App */,
+				F1EF865225212035008E140B /* The Wishes AppTests */,
+				F1EF865D25212035008E140B /* The Wishes AppUITests */,
+				F1EF863A25212031008E140B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1EF863A25212031008E140B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1EF863925212031008E140B /* The Wishes App.app */,
+				F1EF864F25212035008E140B /* The Wishes AppTests.xctest */,
+				F1EF865A25212035008E140B /* The Wishes AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1EF863B25212031008E140B /* The Wishes App */ = {
+			isa = PBXGroup;
+			children = (
+				F1535D582521F0DD00FBE73E /* Models */,
+				F1535D4D2521E3A000FBE73E /* Cells */,
+				F10A06CB25212AD000B53071 /* View Controllers */,
+				F10A06C22521276700B53071 /* Storyboards */,
+				F1EF863C25212031008E140B /* AppDelegate.swift */,
+				F1EF863E25212031008E140B /* SceneDelegate.swift */,
+				F1EF864025212031008E140B /* ViewController.swift */,
+				F10A06DC2521329F00B53071 /* UIViewController+.swift */,
+				F1535D5E2521F95A00FBE73E /* CellSegueProtocol.swift */,
+				F1EF864525212034008E140B /* Assets.xcassets */,
+				F1EF864A25212034008E140B /* Info.plist */,
+			);
+			path = "The Wishes App";
+			sourceTree = "<group>";
+		};
+		F1EF865225212035008E140B /* The Wishes AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1EF865325212035008E140B /* The_Wishes_AppTests.swift */,
+				F1EF865525212035008E140B /* Info.plist */,
+			);
+			path = "The Wishes AppTests";
+			sourceTree = "<group>";
+		};
+		F1EF865D25212035008E140B /* The Wishes AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1EF865E25212035008E140B /* The_Wishes_AppUITests.swift */,
+				F1EF866025212035008E140B /* Info.plist */,
+			);
+			path = "The Wishes AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1EF863825212031008E140B /* The Wishes App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1EF866325212035008E140B /* Build configuration list for PBXNativeTarget "The Wishes App" */;
+			buildPhases = (
+				F1EF863525212031008E140B /* Sources */,
+				F1EF863625212031008E140B /* Frameworks */,
+				F1EF863725212031008E140B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Wishes App";
+			productName = "The Wishes App";
+			productReference = F1EF863925212031008E140B /* The Wishes App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1EF864E25212035008E140B /* The Wishes AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1EF866625212035008E140B /* Build configuration list for PBXNativeTarget "The Wishes AppTests" */;
+			buildPhases = (
+				F1EF864B25212035008E140B /* Sources */,
+				F1EF864C25212035008E140B /* Frameworks */,
+				F1EF864D25212035008E140B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1EF865125212035008E140B /* PBXTargetDependency */,
+			);
+			name = "The Wishes AppTests";
+			productName = "The Wishes AppTests";
+			productReference = F1EF864F25212035008E140B /* The Wishes AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1EF865925212035008E140B /* The Wishes AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1EF866925212035008E140B /* Build configuration list for PBXNativeTarget "The Wishes AppUITests" */;
+			buildPhases = (
+				F1EF865625212035008E140B /* Sources */,
+				F1EF865725212035008E140B /* Frameworks */,
+				F1EF865825212035008E140B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1EF865C25212035008E140B /* PBXTargetDependency */,
+			);
+			name = "The Wishes AppUITests";
+			productName = "The Wishes AppUITests";
+			productReference = F1EF865A25212035008E140B /* The Wishes AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1EF863125212031008E140B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F1EF863825212031008E140B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F1EF864E25212035008E140B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F1EF863825212031008E140B;
+					};
+					F1EF865925212035008E140B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F1EF863825212031008E140B;
+					};
+				};
+			};
+			buildConfigurationList = F1EF863425212031008E140B /* Build configuration list for PBXProject "The Wishes App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1EF863025212031008E140B;
+			productRefGroup = F1EF863A25212031008E140B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1EF863825212031008E140B /* The Wishes App */,
+				F1EF864E25212035008E140B /* The Wishes AppTests */,
+				F1EF865925212035008E140B /* The Wishes AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1EF863725212031008E140B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EF864925212034008E140B /* LaunchScreen.storyboard in Resources */,
+				F1535D512521E41200FBE73E /* CategoriesCell.xib in Resources */,
+				F1EF864625212034008E140B /* Assets.xcassets in Resources */,
+				F1EF864425212031008E140B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EF864D25212035008E140B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EF865825212035008E140B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1EF863525212031008E140B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EF864125212031008E140B /* ViewController.swift in Sources */,
+				F1535D5F2521F95A00FBE73E /* CellSegueProtocol.swift in Sources */,
+				F1535D502521E41200FBE73E /* CategoriesCell.swift in Sources */,
+				F1EF863D25212031008E140B /* AppDelegate.swift in Sources */,
+				F1535D392521404400FBE73E /* CategoriesViewController.swift in Sources */,
+				F10A06DD2521329F00B53071 /* UIViewController+.swift in Sources */,
+				F10A06D8252131A200B53071 /* MainWelcomePage.swift in Sources */,
+				F1EF863F25212031008E140B /* SceneDelegate.swift in Sources */,
+				F1535D5A2521F13500FBE73E /* CategoriesModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EF864B25212035008E140B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EF865425212035008E140B /* The_Wishes_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EF865625212035008E140B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EF865F25212035008E140B /* The_Wishes_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1EF865125212035008E140B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1EF863825212031008E140B /* The Wishes App */;
+			targetProxy = F1EF865025212035008E140B /* PBXContainerItemProxy */;
+		};
+		F1EF865C25212035008E140B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1EF863825212031008E140B /* The Wishes App */;
+			targetProxy = F1EF865B25212035008E140B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1EF864225212031008E140B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1EF864325212031008E140B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1EF864725212034008E140B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1EF864825212034008E140B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1EF866125212035008E140B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1EF866225212035008E140B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1EF866425212035008E140B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGYH28RG22;
+				INFOPLIST_FILE = "The Wishes App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "giovanniraininger.The-Wishes-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1EF866525212035008E140B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGYH28RG22;
+				INFOPLIST_FILE = "The Wishes App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "giovanniraininger.The-Wishes-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1EF866725212035008E140B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGYH28RG22;
+				INFOPLIST_FILE = "The Wishes AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "giovanniraininger.The-Wishes-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Wishes App.app/The Wishes App";
+			};
+			name = Debug;
+		};
+		F1EF866825212035008E140B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGYH28RG22;
+				INFOPLIST_FILE = "The Wishes AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "giovanniraininger.The-Wishes-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Wishes App.app/The Wishes App";
+			};
+			name = Release;
+		};
+		F1EF866A25212035008E140B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGYH28RG22;
+				INFOPLIST_FILE = "The Wishes AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "giovanniraininger.The-Wishes-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Wishes App";
+			};
+			name = Debug;
+		};
+		F1EF866B25212035008E140B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGYH28RG22;
+				INFOPLIST_FILE = "The Wishes AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "giovanniraininger.The-Wishes-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Wishes App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1EF863425212031008E140B /* Build configuration list for PBXProject "The Wishes App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EF866125212035008E140B /* Debug */,
+				F1EF866225212035008E140B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EF866325212035008E140B /* Build configuration list for PBXNativeTarget "The Wishes App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EF866425212035008E140B /* Debug */,
+				F1EF866525212035008E140B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EF866625212035008E140B /* Build configuration list for PBXNativeTarget "The Wishes AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EF866725212035008E140B /* Debug */,
+				F1EF866825212035008E140B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EF866925212035008E140B /* Build configuration list for PBXNativeTarget "The Wishes AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EF866A25212035008E140B /* Debug */,
+				F1EF866B25212035008E140B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1EF863125212031008E140B /* Project object */;
+}
